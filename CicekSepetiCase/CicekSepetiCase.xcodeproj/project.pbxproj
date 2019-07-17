@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		43431A21CABF380BACDA4CC4 /* Pods_CicekSepetiCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C2CF3E3E780641BA7C5136 /* Pods_CicekSepetiCase.framework */; };
 		FD9E52B822DF5C5700733185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E52B722DF5C5700733185 /* AppDelegate.swift */; };
-		FD9E52BA22DF5C5700733185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E52B922DF5C5700733185 /* ViewController.swift */; };
-		FD9E52BD22DF5C5700733185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9E52BB22DF5C5700733185 /* Main.storyboard */; };
 		FD9E52BF22DF5C5900733185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9E52BE22DF5C5900733185 /* Assets.xcassets */; };
 		FD9E52C222DF5C5900733185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */; };
+		FDC3621B22DFA08F00F17980 /* Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621A22DFA08F00F17980 /* Modals.swift */; };
+		FDC3621D22DFA18100F17980 /* WebServiceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621C22DFA18100F17980 /* WebServiceImp.swift */; };
+		FDC3621F22DFA56C00F17980 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */; };
+		FDC3622122DFA58400F17980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC3622022DFA58400F17980 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +23,13 @@
 		E4FFDAA6AC85D57C3F4A4F2A /* Pods-CicekSepetiCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicekSepetiCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CicekSepetiCase/Pods-CicekSepetiCase.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9E52B422DF5C5700733185 /* CicekSepetiCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicekSepetiCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9E52B722DF5C5700733185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD9E52B922DF5C5700733185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD9E52BC22DF5C5700733185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD9E52BE22DF5C5900733185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD9E52C122DF5C5900733185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD9E52C322DF5C5900733185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC3621A22DFA08F00F17980 /* Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modals.swift; sourceTree = "<group>"; };
+		FDC3621C22DFA18100F17980 /* WebServiceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceImp.swift; sourceTree = "<group>"; };
+		FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FDC3622022DFA58400F17980 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				FD9E52B722DF5C5700733185 /* AppDelegate.swift */,
-				FD9E52B922DF5C5700733185 /* ViewController.swift */,
-				FD9E52BB22DF5C5700733185 /* Main.storyboard */,
 				FD9E52BE22DF5C5900733185 /* Assets.xcassets */,
 				FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */,
 				FD9E52C322DF5C5900733185 /* Info.plist */,
+				FDC3621A22DFA08F00F17980 /* Modals.swift */,
+				FDC3621C22DFA18100F17980 /* WebServiceImp.swift */,
+				FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */,
+				FDC3622022DFA58400F17980 /* Main.storyboard */,
 			);
 			path = CicekSepetiCase;
 			sourceTree = "<group>";
@@ -148,9 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC3622122DFA58400F17980 /* Main.storyboard in Resources */,
 				FD9E52C222DF5C5900733185 /* LaunchScreen.storyboard in Resources */,
 				FD9E52BF22DF5C5900733185 /* Assets.xcassets in Resources */,
-				FD9E52BD22DF5C5700733185 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,22 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9E52BA22DF5C5700733185 /* ViewController.swift in Sources */,
+				FDC3621F22DFA56C00F17980 /* MainTableViewController.swift in Sources */,
+				FDC3621B22DFA08F00F17980 /* Modals.swift in Sources */,
 				FD9E52B822DF5C5700733185 /* AppDelegate.swift in Sources */,
+				FDC3621D22DFA18100F17980 /* WebServiceImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD9E52BB22DF5C5700733185 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD9E52BC22DF5C5700733185 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
