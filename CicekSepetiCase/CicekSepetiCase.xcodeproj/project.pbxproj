@@ -11,7 +11,7 @@
 		FD9E52B822DF5C5700733185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E52B722DF5C5700733185 /* AppDelegate.swift */; };
 		FD9E52BF22DF5C5900733185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9E52BE22DF5C5900733185 /* Assets.xcassets */; };
 		FD9E52C222DF5C5900733185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */; };
-		FDC3621B22DFA08F00F17980 /* Modals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621A22DFA08F00F17980 /* Modals.swift */; };
+		FDC3621B22DFA08F00F17980 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621A22DFA08F00F17980 /* Models.swift */; };
 		FDC3621D22DFA18100F17980 /* WebServiceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621C22DFA18100F17980 /* WebServiceImp.swift */; };
 		FDC3621F22DFA56C00F17980 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */; };
 		FDC3622122DFA58400F17980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC3622022DFA58400F17980 /* Main.storyboard */; };
@@ -26,7 +26,7 @@
 		FD9E52BE22DF5C5900733185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD9E52C122DF5C5900733185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD9E52C322DF5C5900733185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDC3621A22DFA08F00F17980 /* Modals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modals.swift; sourceTree = "<group>"; };
+		FDC3621A22DFA08F00F17980 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		FDC3621C22DFA18100F17980 /* WebServiceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceImp.swift; sourceTree = "<group>"; };
 		FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		FDC3622022DFA58400F17980 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				FD9E52BE22DF5C5900733185 /* Assets.xcassets */,
 				FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */,
 				FD9E52C322DF5C5900733185 /* Info.plist */,
-				FDC3621A22DFA08F00F17980 /* Modals.swift */,
+				FDC3621A22DFA08F00F17980 /* Models.swift */,
 				FDC3621C22DFA18100F17980 /* WebServiceImp.swift */,
 				FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */,
 				FDC3622022DFA58400F17980 /* Main.storyboard */,
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC3621F22DFA56C00F17980 /* MainTableViewController.swift in Sources */,
-				FDC3621B22DFA08F00F17980 /* Modals.swift in Sources */,
+				FDC3621B22DFA08F00F17980 /* Models.swift in Sources */,
 				FD9E52B822DF5C5700733185 /* AppDelegate.swift in Sources */,
 				FDC3621D22DFA18100F17980 /* WebServiceImp.swift in Sources */,
 			);
