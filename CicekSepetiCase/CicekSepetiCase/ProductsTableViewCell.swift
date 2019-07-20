@@ -23,11 +23,11 @@ class ProductsTableViewCell: UITableViewCell {
     func setupCell(product : Product?){
         if let product = product{
             label.text = product.name
-            newPrice.text = String(product.price.current) + " TL"
-            oldPrice.text = String(product.price.old) + " TL "
-            product.installment ? (installment.text = product.installmentText) : (installment.text = "")
+            newPrice.text = String(product.price?.current ?? 0) + " TL"
+            oldPrice.text = String(product.price?.old ?? 0) + " TL "
+            product.installment ?? false ? (installment.text = product.installmentText) : (installment.text = "")
             oldPrice.attributedText = oldPrice.text?.strikeThroughAttribute()
-            if let url = URL(string: product.image){
+            if let url = URL(string: product.image ?? ""){
             productImage.af_setImage(withURL: url)
             }
         }

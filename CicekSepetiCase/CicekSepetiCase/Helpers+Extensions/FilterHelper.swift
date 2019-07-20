@@ -13,9 +13,9 @@ class FilterHelper{
     static let shared = FilterHelper()
     
     func filterData(answer : Welcome) -> [Product]{
-        let filteredByProductGroupId = answer.result.data.products.filter({$0.productGroupID == 1})
+        let filteredByProductGroupId = answer.result?.data?.products?.filter({$0.productGroupId == 1})
         
-        let filteredByPrice = filteredByProductGroupId.filter({$0.price.current >= 50.0 && $0.price.current <= 100.0})
+        let filteredByPrice = filteredByProductGroupId?.filter({$0.price?.current ?? 0 >= 50.0 && $0.price?.current ?? 0 <= 100.0}) ?? []
         
         return filteredByPrice
     }
