@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Products-->
+        <!--Çiçek Sepeti-->
         <scene sceneID="UcA-Gd-pUj">
             <objects>
                 <tableViewController id="pFR-Bf-xXP" customClass="MainTableViewController" customModule="CicekSepetiCase" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,38 +34,44 @@
                                                         <constraint firstAttribute="width" constant="140" id="y7v-to-KRx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc4-KV-cat">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nc4-KV-cat">
                                                     <rect key="frame" x="148" y="8" width="242" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="w3W-ub-zFO">
-                                                    <rect key="frame" x="148" y="58" width="150" height="19.5"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Old Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n01-Or-k6d">
-                                                            <rect key="frame" x="0.0" y="0.0" width="66.5" height="19.5"/>
-                                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
-                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mme-SS-Xwf">
-                                                            <rect key="frame" x="76.5" y="0.0" width="73.5" height="19.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Old Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n01-Or-k6d">
+                                                    <rect key="frame" x="148" y="58" width="66.5" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mme-SS-Xwf">
+                                                    <rect key="frame" x="233" y="58" width="72.5" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Installment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7vr-A4-L2B">
+                                                    <rect key="frame" x="148" y="107" width="158" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                                                    <color key="textColor" red="0.18681072842620597" green="0.45054556086393949" blue="0.19304763502438288" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="nc4-KV-cat" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="8" symbolic="YES" id="0n7-i1-YBg"/>
                                                 <constraint firstAttribute="trailing" secondItem="nc4-KV-cat" secondAttribute="trailing" constant="8" id="5WH-MP-TGw"/>
+                                                <constraint firstItem="Mme-SS-Xwf" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="93" id="6su-yZ-HmT"/>
+                                                <constraint firstItem="n01-Or-k6d" firstAttribute="top" secondItem="nc4-KV-cat" secondAttribute="bottom" constant="30.5" id="6zU-9a-JAl"/>
                                                 <constraint firstItem="e5a-1d-eEX" firstAttribute="leading" secondItem="ig7-Xg-o7Z" secondAttribute="leading" id="A6i-ph-pZO"/>
                                                 <constraint firstItem="e5a-1d-eEX" firstAttribute="top" secondItem="ig7-Xg-o7Z" secondAttribute="top" id="AYu-Sy-cV0"/>
-                                                <constraint firstItem="w3W-ub-zFO" firstAttribute="top" secondItem="nc4-KV-cat" secondAttribute="bottom" constant="30.5" id="GCo-C2-7bT"/>
-                                                <constraint firstItem="w3W-ub-zFO" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="8" id="Pe3-Ps-5Lg"/>
+                                                <constraint firstItem="n01-Or-k6d" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="8" id="Lkz-u1-O3l"/>
+                                                <constraint firstItem="Mme-SS-Xwf" firstAttribute="top" secondItem="nc4-KV-cat" secondAttribute="bottom" constant="30.5" id="QV8-Dk-bPc"/>
+                                                <constraint firstItem="7vr-A4-L2B" firstAttribute="top" secondItem="n01-Or-k6d" secondAttribute="bottom" constant="29.5" id="UK8-EA-aSh"/>
+                                                <constraint firstItem="7vr-A4-L2B" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="8" id="c7z-G9-ioK"/>
+                                                <constraint firstItem="Mme-SS-Xwf" firstAttribute="leading" secondItem="7vr-A4-L2B" secondAttribute="trailing" constant="-73" id="f8g-ib-jcy"/>
                                                 <constraint firstItem="nc4-KV-cat" firstAttribute="top" secondItem="ig7-Xg-o7Z" secondAttribute="top" constant="8" id="ggc-nQ-YkC"/>
                                                 <constraint firstItem="e5a-1d-eEX" firstAttribute="height" secondItem="ig7-Xg-o7Z" secondAttribute="height" id="nDw-Q9-9xR"/>
                                             </constraints>
@@ -96,6 +102,7 @@
                                     <constraint firstItem="ig7-Xg-o7Z" firstAttribute="height" secondItem="LvP-ft-qlY" secondAttribute="height" constant="-4" id="7n2-5r-B3v"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="installment" destination="7vr-A4-L2B" id="dLG-uG-Xa0"/>
                                     <outlet property="label" destination="nc4-KV-cat" id="bne-Bt-3XD"/>
                                     <outlet property="newPrice" destination="Mme-SS-Xwf" id="sO4-d6-c8L"/>
                                     <outlet property="oldPrice" destination="n01-Or-k6d" id="u11-KS-jor"/>
@@ -108,7 +115,7 @@
                             <outlet property="delegate" destination="pFR-Bf-xXP" id="IFh-Sd-ED8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Products" id="o3t-lN-anX"/>
+                    <navigationItem key="navigationItem" title="Çiçek Sepeti" id="o3t-lN-anX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvz-Qb-EFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
