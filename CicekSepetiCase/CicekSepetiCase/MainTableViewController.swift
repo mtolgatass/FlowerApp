@@ -27,6 +27,9 @@ class MainTableViewController: UITableViewController {
             _ = WebServiceImp.shared.fetchData().done{ result in
                 let dataToShow = FilterHelper.shared.filterData(answer: result)
                 self.productArray = dataToShow
+                }.catch{ _ in
+                    let alertController = UIAlertController(title: "Hata", message: "Bir sorun oluştu hadi yeniden başlayalım.", preferredStyle: .alert)
+                    self.present(alertController, animated: true)
         }
     }
     
