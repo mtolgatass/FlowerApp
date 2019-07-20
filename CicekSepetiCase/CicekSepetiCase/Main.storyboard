@@ -73,6 +73,7 @@
                                                 <constraint firstItem="7vr-A4-L2B" firstAttribute="leading" secondItem="e5a-1d-eEX" secondAttribute="trailing" constant="8" id="c7z-G9-ioK"/>
                                                 <constraint firstItem="Mme-SS-Xwf" firstAttribute="leading" secondItem="7vr-A4-L2B" secondAttribute="trailing" constant="-73" id="f8g-ib-jcy"/>
                                                 <constraint firstItem="nc4-KV-cat" firstAttribute="top" secondItem="ig7-Xg-o7Z" secondAttribute="top" constant="8" id="ggc-nQ-YkC"/>
+                                                <constraint firstAttribute="bottom" secondItem="7vr-A4-L2B" secondAttribute="bottom" constant="9.5" id="lFF-cV-lse"/>
                                                 <constraint firstItem="e5a-1d-eEX" firstAttribute="height" secondItem="ig7-Xg-o7Z" secondAttribute="height" id="nDw-Q9-9xR"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
