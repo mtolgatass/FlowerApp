@@ -7,21 +7,29 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ProductsTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
+    
+    @IBOutlet weak var newPrice: UILabel!
+    @IBOutlet weak var oldPrice: UILabel!
     
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    func setupCell(product : Product?){
+        if let product = product{
+            label.text = product.name
+            newPrice.text = String(product.price.current)
+            oldPrice.text = String(product.price.old)
+            oldPrice.attributedText = oldPrice.text?.strikeThroughAttribute()
+            if let url = URL(string: product.image){
+            productImage.af_setImage(withURL: url)
+            }
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
+    
 }
