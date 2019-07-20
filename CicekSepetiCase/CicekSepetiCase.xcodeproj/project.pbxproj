@@ -67,6 +67,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD4C507922E35E99009B2D20 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDA115A922E0E0EF00766645 /* FilterHelper.swift */,
+				FD4C507722E33611009B2D20 /* Extensions.swift */,
+				FDC3621C22DFA18100F17980 /* WebServiceImp.swift */,
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
 		FD9E52AB22DF5C5700733185 = {
 			isa = PBXGroup;
 			children = (
@@ -88,17 +98,15 @@
 		FD9E52B622DF5C5700733185 /* CicekSepetiCase */ = {
 			isa = PBXGroup;
 			children = (
+				FD4C507922E35E99009B2D20 /* Helpers+Extensions */,
 				FD9E52B722DF5C5700733185 /* AppDelegate.swift */,
 				FD9E52BE22DF5C5900733185 /* Assets.xcassets */,
 				FD9E52C022DF5C5900733185 /* LaunchScreen.storyboard */,
 				FD9E52C322DF5C5900733185 /* Info.plist */,
 				FDC3621A22DFA08F00F17980 /* Models.swift */,
-				FDC3621C22DFA18100F17980 /* WebServiceImp.swift */,
 				FDC3621E22DFA56C00F17980 /* MainTableViewController.swift */,
 				FDC3622022DFA58400F17980 /* Main.storyboard */,
-				FDA115A922E0E0EF00766645 /* FilterHelper.swift */,
 				FDA115AB22E0EB3700766645 /* ProductsTableViewCell.swift */,
-				FD4C507722E33611009B2D20 /* Extensions.swift */,
 			);
 			path = CicekSepetiCase;
 			sourceTree = "<group>";
